@@ -1,0 +1,16 @@
+ /*esercizio 1*/
+ 
+.jumbotron h1 {
+background-color: aquamarine;
+}
+
+
+/*esercizio 2*/
+.nav > span {
+    color:darkcyan;
+}
+
+/*esercizio 3*/
+.jumbotron a {
+    background-color: mediumvioletred;
+}
