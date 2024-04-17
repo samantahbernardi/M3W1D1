@@ -7,10 +7,38 @@ background-color: aquamarine;
 
 /*esercizio 2*/
 .nav > span {
-    color:darkcyan;
+    color:royalblue;
 }
 
 /*esercizio 3*/
 .jumbotron a {
     background-color: mediumvioletred;
+}
+
+/*esercizio 4*/
+.blog-post:first-of-type {
+    color: cornflowerblue;
+}
+
+/*ESERCIZIO 5) Crea un selettore per selezionare l'<hr> del primo blog post e colorarlo di rosso*/
+
+.blog-post hr:first-of-type {
+    background-color: red;
+}
+
+/*ESERCIZIO 6) Crea un selettore per selezionare i link pari della navbar*/
+
+.nav span:nth-of-type(even) {
+    color:hotpink;
+}
+
+/*ESERCIZIO 7) Crea un selettore per selezionare tutti gli <li> della prima "ordered-list" della sidebar ("Archivio")*/
+aside div > ol > li {
+background-color: mediumvioletred;
+}
+
+/*ESERCIZIO 8) Crea un selettore per selezionare l'autore del secondo blog post*/
+
+.blog-post:nth-of-type(2) p:first-of-type > a {
+    background-color: cornflowerblue;
 }
