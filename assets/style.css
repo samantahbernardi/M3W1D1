@@ -17,7 +17,7 @@ background-color: aquamarine;
 
 /*esercizio 4*/
 .blog-post:first-of-type {
-    color: cornflowerblue;
+    color:royalblue;
 }
 
 /*ESERCIZIO 5) Crea un selettore per selezionare l'<hr> del primo blog post e colorarlo di rosso*/
