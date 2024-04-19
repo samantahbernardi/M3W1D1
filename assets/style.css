@@ -44,6 +44,21 @@ background-color: mediumvioletred;
 }
 
 /*ESERCIZIO 9) Crea un selettore per selezionare il secondo <li> della lista del terzo blog post*/
+.blog-post:nth-of-type(3) > ul li:nth-of-type(2) {
+    color:hotpink;
+}
 /*ESERCIZIO 10) Crea un selettore per selezionare il link "Torna su" che trovi a fondo pagina nell'angolo in basso a destra*/
+.float-right {
+   background-color: pink;
+}
+
+
 /*ESERCIZIO 11) Crea un selettore per selezionare il bottone "Nuovi" che trovi in basso*/
+ main nav:first-of-type > a:nth-of-type(2) {
+   color: hotpink;
+}
+
 /*ESERCIZIO 12) Crea un selettore per selezionare il secondo link del footer*/
+footer p > a:nth-child(2) {
+    color:palevioletred;
+}
